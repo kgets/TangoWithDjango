@@ -18,10 +18,6 @@ def populate():
         title="How to Think like a Computer Scientist",
         url="http://www.greenteapress.com/thinkpython/")
 
-    add_page(cat=python_cat,
-        title="Learn Python in 10 Minutes",
-        url="http://www.korokithakis.net/tutorials/python/")
-
     django_cat = add_cat("Django")
 
     add_page(cat=django_cat,
